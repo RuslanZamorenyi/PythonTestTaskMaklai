@@ -49,7 +49,7 @@ def get_paraphrase(get_tree_for_change, limit):
         return "problem with your limit data please check and repeat again"
 
 
-@app.route('/paraphrase', methods=['GET'])
+@app.route('/paraphrase', methods=['POST'])
 def get_data():
     get_tree_for_change = request.headers.get('data')
     limit = request.headers.get('paraphrasing_limit')

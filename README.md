@@ -1,8 +1,8 @@
 # PythonTestTaskMaklai
 Get and modify the syntax tree
 
-Installation
+Installation:
 pip install -r requirements.txt
 
-Run project
+Run project:
 python main.py
